@@ -1,0 +1,2 @@
+Select MAX(E1.Salary) from Employee E1
+where E1.Salary NOT IN (Select Max(E2.Salary) from Employee E2)
